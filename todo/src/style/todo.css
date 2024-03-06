@@ -1,0 +1,29 @@
+.maindiv{
+    width: 100%;
+    min-height: 580px;
+    border: 5px solid red;
+    background-color: rgb(74, 74, 92);
+}
+.childdiv{
+    height: 100%;
+    width: 70%;
+    border: 5px solid black; 
+    margin: auto; 
+    text-align: center; 
+    background-color: rgb(220, 220, 167);
+    margin-top: 50px;
+}
+.childdiv:hover{
+    box-shadow: 10px 10px 50px aqua;
+}
+.inputadd{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.inputdata{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
